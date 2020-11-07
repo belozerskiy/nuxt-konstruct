@@ -1,0 +1,56 @@
+.c-header {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8d8d8;
+  background-image: url(~assets/images/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  &__logo {
+    position: absolute;
+    top: 4rem;
+  }
+
+  &__title {
+    font-family: 'Bebas Neue Bold', sans-serif;
+    letter-spacing: 0.6rem;
+    line-height: 6rem;
+  }
+
+  &__subtitle {
+    font-size: 1.6rem;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  &__text {
+    text-align: center;
+  }
+
+  &__scroll-button {
+    position: absolute;
+    bottom: 7rem;
+    color: inherit;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4rem;
+    font-weight: 500; // semibold
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    transition: transform 0.3s ease-in;
+
+    &:hover {
+      transform: scale(1.1) translateY(-0.5rem);
+    }
+  }
+}

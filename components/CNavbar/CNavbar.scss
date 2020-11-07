@@ -1,0 +1,26 @@
+.c-navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+
+  &__logo {
+    height: 1.8rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 2.4rem 1.5rem;
+    color: #48555b;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

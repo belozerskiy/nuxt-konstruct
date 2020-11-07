@@ -1,0 +1,22 @@
+.c-button {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  text-decoration: none;
+
+  &--primary {
+    background-color: #00a4e5;
+    color: #fff;
+  }
+
+  &--default {
+    // Todo
+  }
+
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

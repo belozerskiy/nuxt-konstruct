@@ -1,0 +1,63 @@
+.c-story {
+  &__header {
+    text-align: center;
+  }
+
+  &__services {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.019rem;
+    line-height: 2.7rem;
+
+    &--primary {
+      color: #00a4e5;
+    }
+  }
+
+  &__desc {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.019rem;
+    line-height: 2.3rem;
+    color: #48555b;
+  }
+}
+
+.service {
+  height: 22.4rem;
+  width: 14rem;
+  padding: 1.5rem;
+  margin-right: 2rem;
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: 0.019rem;
+  line-height: 2.9rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #d8d8d8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+
+  &--plan {
+    background-image: url(~assets/images/bg-plan.jpg);
+  }
+
+  &--manage {
+    background-image: url(~assets/images/bg-manage.jpg);
+  }
+
+  &--build {
+    background-image: url(~assets/images/bg-deliver.jpg);
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

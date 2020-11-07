@@ -1,0 +1,22 @@
+.c-amazing {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(~assets/images/amazing@2x.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12rem;
+
+  &__title {
+    max-width: 35rem;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.015rem;
+    line-height: 3.6rem;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    color: #48555b;
+  }
+}

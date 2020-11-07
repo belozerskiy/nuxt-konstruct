@@ -1,0 +1,77 @@
+.capabilities-header {
+  display: flex;
+  align-items: flex-start;
+
+  &__title {
+    flex: 1;
+  }
+
+  &__text {
+    justify-self: flex-end;
+    flex-basis: 40%;
+    font-size: 1.1rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.9rem;
+    margin-right: 3rem;
+    color: #48555b;
+  }
+}
+
+.capabilities-list {
+  display: flex;
+
+  &__item {
+    margin-right: 2rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.capabilitie {
+  display: flex;
+  flex-direction: column;
+  min-height: 33rem;
+  padding: 4rem 2rem;
+  border: 0.01rem solid #e6e6e6;
+  list-style-type: none;
+  cursor: pointer;
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #48555b;
+    line-height: 2.4rem;
+    letter-spacing: 0.043rem;
+    text-transform: uppercase;
+  }
+
+  &__desc {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #48555b;
+    line-height: 2.3rem;
+    letter-spacing: 0.019rem;
+  }
+
+  &::before {
+    content: '';
+    height: 7.5rem;
+    background-repeat: no-repeat;
+    margin-bottom: 2.5rem;
+  }
+
+  &--first::before {
+    background-image: url(~assets/images/1.svg);
+  }
+
+  &--second::before {
+    background-image: url(~assets/images/2.svg);
+  }
+
+  &--third::before {
+    background-image: url(~assets/images/3.svg);
+  }
+}

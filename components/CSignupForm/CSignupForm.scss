@@ -1,0 +1,29 @@
+.c-signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 3rem 0;
+
+  &__label {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.085rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-right: 7rem;
+  }
+
+  &__input {
+    width: 25rem;
+    border: 0.1rem solid #979797;
+    border-right: none;
+    padding: 1.5rem 1rem;
+    outline: none;
+  }
+
+  &__input,
+  &__button {
+    height: 4rem;
+  }
+}

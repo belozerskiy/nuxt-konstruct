@@ -1,0 +1,79 @@
+.c-footer {
+  background-color: #141a20;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.085rem;
+  line-height: 1.5rem;
+  color: #fff;
+
+  &__container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__company {
+    flex-basis: 23%;
+  }
+
+  &__contacts {
+    flex-basis: 13%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__company,
+  &__links,
+  &__contacts {
+    margin-right: 7rem;
+  }
+
+  &__list {
+    list-style-type: none;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 2rem;
+
+    &--socials {
+      grid-template-columns: repeat(3, min-content);
+      grid-template-rows: repeat(1, min-content);
+      grid-gap: 2.5rem;
+      margin-top: 3.5rem;
+    }
+
+    &--links {
+      grid-template-columns: repeat(3, 7.6rem);
+      grid-template-rows: repeat(5, 1fr);
+    }
+
+    &--contacts {
+      flex: 1;
+      display: grid;
+      grid-template-rows: repeat(3, min-content);
+      align-content: space-between;
+    }
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+
+    &--contact {
+      grid-column: 1;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  &__copyright {
+    background-color: #171819;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
