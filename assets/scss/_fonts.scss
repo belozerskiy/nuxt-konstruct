@@ -1,12 +1,16 @@
 @font-face {
-	font-family: "Bebas Neue Bold";
-	font-weight: normal;
-	font-style: normal;
-	src: url("~assets/fonts/bebas-neue-bold.eot"); /* IE9 Compat Modes */
-	src: url("~assets/fonts/bebas-neue-bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-		url("~assets/fonts/bebas-neue-bold.otf") format("opentype"), /* Open Type Font */
-		url("~assets/fonts/bebas-neue-bold.svg") format("svg"), /* Legacy iOS */
-		url("~assets/fonts/bebas-neue-bold.ttf") format("truetype"), /* Safari, Android, iOS */
-		url("~assets/fonts/bebas-neue-bold.woff") format("woff"), /* Modern Browsers */
-		url("~assets/fonts/bebas-neue-bold.woff2") format("woff2"); /* Modern Browsers */
+  font-family: 'Bebas Neue Bold';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('~assets/fonts/bebas-neue-bold.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/bebas-neue-bold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('~assets/fonts/bebas-neue-bold.otf') format('opentype'),
+    /* Open Type Font */ url('~assets/fonts/bebas-neue-bold.svg') format('svg'),
+    /* Legacy iOS */ url('~assets/fonts/bebas-neue-bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('~assets/fonts/bebas-neue-bold.woff')
+      format('woff'),
+    /* Modern Browsers */ url('~assets/fonts/bebas-neue-bold.woff2')
+      format('woff2'); /* Modern Browsers */
 }

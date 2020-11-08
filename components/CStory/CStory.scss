@@ -43,6 +43,7 @@
   background-color: #d8d8d8;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: transform 0.3s ease-out;
   cursor: pointer;
 
   &--plan {
@@ -59,5 +60,9 @@
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 }

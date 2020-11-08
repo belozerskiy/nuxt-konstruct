@@ -1,3 +1,12 @@
+@keyframes bg-light {
+  from {
+    background-color: rgba(0, 0, 0, 1);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
 .c-header {
   position: relative;
   height: 100vh;
@@ -5,12 +14,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #d8d8d8;
-  background-image: url(~assets/images/header-bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   color: white;
+
+  &--background {
+    background-image: url(~assets/images/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    animation-name: bg-light;
+    animation-duration: 3s;
+  }
 
   &__logo {
     position: absolute;
@@ -51,6 +66,7 @@
 
     &:hover {
       transform: scale(1.1) translateY(-0.5rem);
+      box-shadow: 0 0.2 0.8;
     }
   }
 }
