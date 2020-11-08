@@ -6,4 +6,4 @@
     </CButton>
   </section>
 </template>
-<style lang="scss" src="./CAmazing.scss" />
+<style lang="scss" src="./CAmazing.scss" scoped />

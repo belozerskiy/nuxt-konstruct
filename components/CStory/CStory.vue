@@ -24,4 +24,4 @@
     </div>
   </section>
 </template>
-<style lang="scss" src="./CStory.scss" />
+<style lang="scss" src="./CStory.scss" scoped />

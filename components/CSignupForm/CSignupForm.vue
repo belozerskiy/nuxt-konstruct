@@ -12,4 +12,4 @@
     <CButton class="c-signup-form__button" variant="primary">Signup</CButton>
   </form>
 </template>
-<style lang="scss" src="./CSignupForm.scss" />
+<style lang="scss" src="./CSignupForm.scss" scoped />

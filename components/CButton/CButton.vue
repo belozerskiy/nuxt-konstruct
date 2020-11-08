@@ -95,4 +95,4 @@ export default {
 }
 </script>
 
-<style lang="scss" src="./CButton.scss" />
+<style lang="scss" src="./CButton.scss" scoped />

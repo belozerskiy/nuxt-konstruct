@@ -45,4 +45,4 @@
     </ul>
   </section>
 </template>
-<style lang="scss" src="./CCapabilities.scss" />
+<style lang="scss" src="./CCapabilities.scss" scoped />

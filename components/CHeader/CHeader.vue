@@ -1,5 +1,5 @@
 <template>
-  <header class="c-header">
+  <header class="c-header c-header--background">
     <nuxt-link to="/" class="c-header__logo">
       <img
         class="c-header__img"
@@ -8,7 +8,7 @@
       />
     </nuxt-link>
     <div class="c-header__text">
-      <h1 class="c-header__title title--xxl">Partner with konstract</h1>
+      <h1 class="c-header__title title--xxl">Partner with konstruct</h1>
       <span class="c-header__subtitle"
         >An award-winning construction management firm</span
       >
@@ -27,4 +27,4 @@ export default {
   },
 }
 </script>
-<style lang="scss" src="./CHeader.scss" />
+<style lang="scss" src="./CHeader.scss" scoped />

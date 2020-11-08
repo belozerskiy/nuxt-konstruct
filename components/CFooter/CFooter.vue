@@ -78,4 +78,4 @@
     </p>
   </footer>
 </template>
-<style lang="scss" src="./CFooter.scss" />
+<style lang="scss" src="./CFooter.scss" scoped />
