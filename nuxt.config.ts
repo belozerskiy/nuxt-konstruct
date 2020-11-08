@@ -5,7 +5,7 @@ const config: NuxtConfig = {
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
-  target: 'server',
+  target: 'static',
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -57,6 +57,7 @@ const config: NuxtConfig = {
     '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
+    '@aceforth/nuxt-optimized-images',
   ],
   /*
    ** Nuxt.js modules
@@ -67,6 +68,10 @@ const config: NuxtConfig = {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+
+  optimizedImages: {
+    optimizeImages: true,
+  },
 }
 
 export default config
